@@ -1,0 +1,303 @@
+/*
+Template Name: Latest Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+
+/*********************product_detail****************/
+
+#shop_detail {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #ffeeee;
+}
+
+.center_shop_1ri h6 span i {
+    color: #FFCC66;
+}
+
+.center_shop_1ri h6 span {
+    margin-right: 10px;
+}
+
+.center_shop_1ri h5 span {
+    margin-left: 30px;
+}
+
+.center_shop_1ri1 {
+    margin-top: 10px;
+}
+
+.center_shop_1ri1 h5 {
+    width: 50%;
+}
+
+.center_shop_1ri1 h4 span {
+    color: #ddd;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.center_shop_1ri1 .input-group {
+    margin-top: 10px;
+    width: 18%;
+}
+
+.center_shop_1ri1 h6 span {
+    margin-left: 10px;
+}
+
+.center_shop_1ri1 ul li a {
+    background: #333;
+}
+
+.center_shop_1ri1 ul li a i {
+    color: #fff;
+}
+
+.center_shop_1ri1 ul {
+    display: block;
+    margin-top: 20px;
+}
+
+.center_shop_2 {
+    margin-top: 20px;
+}
+
+.pd_n ul li {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+.pd_n .bg_1 {
+    background: red;
+}
+
+.pd_n .bg_2 {
+    background: orange;
+}
+
+.pd_n .bg_3 {
+    background: none;
+}
+
+.pd_n .bg_4 {
+    background: pink;
+}
+
+.pd_n .bg_5 {
+    background: #000;
+}
+
+.pd_n .act {
+    border: 3px solid #000;
+}
+
+.pd_n .act_1 {
+    border: 1px solid #ff6d6d;
+}
+
+.pd_n .line {
+    text-decoration: line-through;
+}
+
+.pd_n1 h4 {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.detail_2 {
+    margin-top: 40px;
+}
+
+.detail_2il {
+    border: 1px solid #f9d5d5;
+    padding: 30px 15px;
+}
+
+.detail_2il1 {
+    border: 1px solid #f9d5d5;
+    padding: 30px 15px;
+    border-top: none;
+}
+
+.detail_2ir h4 span {
+    font-size: 16px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.detail_2ir {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px 15px;
+}
+
+.detail_2ir1 .button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detail_3 {
+    margin-top: 40px;
+}
+
+.blog_1ln .form-control {
+    width: 70%;
+}
+
+.blog_1ln .form_1 {
+    width: 100%;
+}
+
+.blog_1ln {
+    padding: 30px 15px;
+    box-shadow: 0 0 5px #ff6d6d4f;
+    margin-top: 30px;
+}
+
+.contact_1r .form-control {
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background: #fff;
+    box-shadow: none;
+    font-size: 16px;
+    border-bottom: 3px solid #d4af37;
+}
+
+.contact_1r .form_1 {
+    height: 150px;
+}
+
+.arrive_1 {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.arriv_2m2 h5 {
+    background: #111;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30%;
+    color: #fff;
+}
+
+.arriv_2m {
+    position: relative;
+}
+
+.arriv_2m2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.arriv_2m3 .span_1 {
+    color: #ff6d6d;
+    display: block;
+    margin-top: 10px;
+}
+
+.arriv_2m3 .span_2 {
+    color: #ccc;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.arriv_2m3 {
+    background: #fff;
+    padding: 25px 15px 30px 15px;
+}
+
+.arriv_2m3 h4 {
+    font-size: 32px;
+}
+
+.arriv_2 {
+    margin-top: 30px;
+}
+
+.arriv_2m2n h5 {
+    background: #ff6d6d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30%;
+    color: #fff;
+}
+
+.arriv_2m2n {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 70%;
+}
+
+.related {
+    margin-top: 30px;
+}
+
+
+/*********************product_detail_end****************/
+
+@media screen and (max-width: 767px) {
+    #shop_detail {
+        text-align: center;
+    }
+    .shop_detail_1r {
+        margin-top: 15px;
+    }
+    .center_shop_1ri1 h5 {
+        text-align: left;
+        width: 100%;
+        font-size: 16px;
+    }
+    .center_shop_1ri1 .input-group {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pd_n1 h4 {
+        font-size: 18px;
+    }
+    .detail_2ir {
+        margin-top: 20px!important;
+    }
+    .arriv_2m3 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .center_shop_1ri1 h5 {
+        width: 80%;
+    }
+    .center_shop_1ri1 .input-group {
+        width: 32%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .center_shop_1ri1 h5 {
+        width: 60%;
+    }
+    .center_shop_1ri1 .input-group {
+        width: 23%;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1220px) {}

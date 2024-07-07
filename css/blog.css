@@ -1,0 +1,202 @@
+/*
+Template Name: Latest Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+
+/*********************blog****************/
+
+.blog_h_1i h5 {
+    font-size: 22px;
+}
+
+.blog_h_1i h6 {
+    font-size: 14px;
+}
+
+.blog_h_1i h6 span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.blog_h_1i {
+    box-shadow: 0 0 5px #ff6d6d4f;
+    padding: 15px;
+}
+
+#blog {
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blog_1l {
+    margin-top: 30px;
+}
+
+.blog_1r1 .input-group {
+    margin-top: 20px;
+    border: 1px solid #f9d5d5;
+}
+
+.blog_1r1 .form-control {
+    height: 50px;
+    border: none;
+    box-shadow: none;
+    background: none;
+    font-size: 16px;
+}
+
+.blog_1r1 .btn {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #666;
+    font-size: 16px;
+}
+
+.blog_1r1 {
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 20px 15px;
+}
+
+.blog_1r1 h6 {
+    border-bottom: 1px solid #f9d5d5;
+    padding-bottom: 15px;
+}
+
+.blog_1r1 p {
+    border-bottom: 1px solid #f9d5d5;
+    padding-bottom: 15px;
+}
+
+.blog_detail_l2 {
+    padding: 30px 15px;
+    box-shadow: 0 0 5px #ff6d6d4f;
+    margin-top: 30px;
+}
+
+.blog_detail_l2i1 h4 a {
+    font-size: 16px;
+}
+
+.blog_detail_l2i1 {
+    margin-top: 30px;
+    border-bottom: 1px solid #f9d5d5;
+    padding-bottom: 30px;
+}
+
+.blog_1ln .form-control {
+    width: 70%;
+}
+
+.blog_1ln .form_1 {
+    width: 100%;
+}
+
+.blog_1ln {
+    padding: 30px 15px;
+    box-shadow: 0 0 5px #ff6d6d4f;
+    margin-top: 30px;
+}
+
+.blog_1l1 blockquote {
+    margin-bottom: 0;
+    border-color: #ff6d6d;
+    margin-top: 20px;
+    background: #fff;
+    padding: 30px;
+}
+
+.blog_1l1 .nav_n1 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.blog_1l1 .nav_n1 li a {
+    padding: 6px 15px 6px 15px;
+    background: #fff;
+    border-radius: 30px;
+    display: block;
+    font-size: 16px;
+}
+
+.blog_1l1 .nav_n1 li a:hover {
+    background: #ff6d6d;
+    color: #fff;
+}
+
+.blog_1l1 .nav_n {
+    list-style: disc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog_1l1 .nav_n li {
+    margin-top: 5px;
+}
+
+.contact_1r .form-control {
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background: #fff;
+    box-shadow: none;
+    font-size: 16px;
+    border-bottom: 3px solid #d4af37;
+}
+
+.contact_1r .form_1 {
+    height: 150px;
+}
+
+
+/*********************blog_end****************/
+
+@media screen and (max-width: 767px) {
+    #blog {
+        text-align: center;
+    }
+    .product_1_last ul li {
+        margin-bottom: 8px;
+    }
+    .blog_1r {
+        margin-top: 20px;
+    }
+    .blog_detail_l2i1 .pull-right {
+        float: none!important;
+    }
+    .blog_detail_l2i1 img {
+        margin-bottom: 15px;
+    }
+    .blog_1l1 .nav_n {
+        list-style: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .blog_1l1 .nav_n1 li {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .blog_h_1i {
+        margin-top: 10px;
+    }
+    .blog_h_1i .button {
+        padding: 8px 10px;
+    }
+    .blog_h_1i h6 {
+        text-align: left;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1200px) {}
+
+@media (min-width:1201px) and (max-width:1220px) {}

@@ -1,0 +1,90 @@
+/*
+Template Name: Latest Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************product****************/
+#arrive{
+ overflow:hidden;
+ padding-top:40px;
+ padding-bottom:40px;
+ background:#ffeeee;
+ }
+.arrive_1{
+margin-top:30px; 
+ }
+.arriv_2m2 h5{
+ background:#111;
+ padding-top:5px;
+ padding-bottom:5px;
+ width:30%;
+ color:#fff;
+ }
+.arriv_2m{
+ position:relative;
+ }
+.arriv_2m2{
+position:absolute;
+top:0;
+width:100%;
+left:0;
+ }
+.arriv_2m3 .span_1 {
+color:#ff6d6d;
+display:block;
+margin-top:10px; 
+ }
+.arriv_2m3 .span_2 {
+color:#ccc;
+margin-right:10px;
+text-decoration:line-through; 
+ }
+.arriv_2m3{
+ background: #fff;
+ padding:25px 15px 30px 15px;
+ }
+.arriv_2m3 h4{
+font-size:32px;
+ }
+.arriv_2{
+margin-top:30px; 
+ }
+.arriv_2m2n h5{
+ background:#ff6d6d;
+ padding-top:5px;
+ padding-bottom:5px;
+ width:30%;
+ color:#fff;
+ }
+.arriv_2m2n{
+position:absolute;
+top:0;
+width:100%;
+left:70%;
+ }
+/*********************product_end****************/
+
+
+@media screen and (max-width : 767px){
+.arriv_2m3 {
+text-align:center;
+margin-bottom:10px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1220px) {
+
+ }
+
+
+
+

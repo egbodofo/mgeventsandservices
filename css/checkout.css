@@ -1,0 +1,115 @@
+/*
+Template Name: Latest Wedding
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************checkout****************/
+#check_pg{
+padding-bottom:40px; 
+background: #ffeeee;
+ }
+.check_rm{
+ padding-top:40px;
+ padding-bottom:40px;
+ box-shadow: 0 0 5px #ff6d6d4f;
+ margin-top:40px;
+ }
+.check_lm{
+ padding-top:40px;
+ padding-bottom:40px;
+ }
+.check_lm1 ul li{
+display:inline-block;
+padding-right:10px; 
+ }
+.check_lm1 ul li i{
+font-size:14px;
+margin-left:5px;
+ }
+.check_lm3{
+ margin-top:15px;
+ }
+.check_lm3 .form-control{
+height:45px;
+border-color:#f9d5d5;
+box-shadow:none;
+font-size:16px;
+background:none;
+ }
+.check_1 {
+vertical-align:bottom;
+}
+.check_lm3 h5 span{
+ margin-left:5px;
+ }
+.check_lm4 .form-control{
+height:45px;
+margin-top:15px;
+border-color:#f9d5d5;
+box-shadow:none;
+font-size:16px;
+background:none;
+ }
+.check_lm5 h5 span{
+ margin-left:5px;
+ }
+.checkout_1r{
+margin-top:20px;
+border-bottom:1px solid #f9d5d5;
+padding-bottom:20px; 
+ }
+#check_pg  hr{
+border-color: #f9d5d5;
+ }
+#check_pg .col_3{
+color:#ff6d6d; 
+ }
+#check_pg  ::placeholder {
+  color: #666;
+  opacity: 1; 
+}
+/*********************checkout_end****************/
+
+
+@media screen and (max-width : 767px){
+#check_pg{
+ text-align:center;
+ padding-bottom:40px;
+ }
+.checkout_1l3  h5{
+ text-align:center;
+ margin-top:15px!important; 
+ }
+.check_rm{
+margin-top:0; 
+ }
+.checkout_1l2  p{
+margin-top:15px!important; 
+ } 
+.checkout_1l2  h6{
+margin-bottom:15px; 
+text-align:center;
+ } 
+.checkout_1r1i h5{
+margin-top:15px!important; 
+ }
+.checkout_1r1i  h4{
+ margin-top:15px!important;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1220px) {
+
+ }
+
+
+
+

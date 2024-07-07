@@ -1,0 +1,177 @@
+/*
+Template Name: Latest Wedding
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+
+/*********************about*************/
+
+#about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+.about_2 {
+    margin-top: 30px;
+}
+
+.about_3 {
+    margin-top: 30px;
+}
+
+.about_3ii span i {
+    font-size: 50px;
+}
+
+.about_3i {
+    margin-top: 30px;
+}
+
+.about_3ii {
+    background: #fff;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.about_3ii:hover {
+    background: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#team_home {
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+.team_homei h5 {
+    color: #666;
+}
+
+.team_homei h4 a {
+    color: #d4af37;
+}
+
+.team_homei h5:before {
+    display: inline-block;
+    width: 10%;
+    height: 1px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-right: 2%;
+    content: "";
+}
+
+.team_homei h5:after {
+    display: inline-block;
+    width: 10%;
+    height: 1px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-left: 2%;
+    content: "";
+}
+
+.team_homei ul {
+    display: block;
+    margin-top: 15px;
+}
+
+.team_homei ul li a {
+    border: 1px solid #f9d5d5;
+}
+
+.team_homei ul li a i {
+    color: #000;
+}
+
+.team_homeii {
+    border: 1px solid #d4af37;
+    padding: 5px 10px 20px 10px;
+}
+
+.team_homei:hover {
+    box-shadow: 0 0 5px #d4af37;
+}
+
+.team_homei img {
+    width: 100%;
+}
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure.effect-jazz figcaption::after,
+figure.effect-jazz img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-jazz:hover img {
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+.team_homeii .social-circle li {
+    margin: 0;
+}
+
+.team_homeii .social-circle li a {
+    width: 40px;
+    height: 40px;
+}
+
+.team_homeii .social-circle li a i {
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.team_home {
+    margin-top: 30px;
+}
+
+#about blockquote {
+    border-color: #fff;
+}
+
+.categories_1 h2 {
+    border-bottom: 1px solid #f9d5d5;
+    padding-bottom: 10px;
+    margin-top: 10px!important;
+}
+
+
+/*********************about_end****************/
+
+@media screen and (max-width: 767px) {
+    #about {
+        text-align: center;
+    }
+    .about_2i {
+        margin-bottom: 15px;
+    }
+    .about_3ii {
+        margin-bottom: 15px;
+    }
+    #team_home {
+        text-align: center;
+    }
+    .team_homei {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1200px) {}
+
+@media (min-width:1201px) and (max-width:1220px) {}
