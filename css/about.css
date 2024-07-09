@@ -52,7 +52,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 }
 
 .team_homei h4 a {
-    color: #d4af37;
+    color: #C3A100;
 }
 
 .team_homei h5:before {
@@ -89,12 +89,12 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 }
 
 .team_homeii {
-    border: 1px solid #d4af37;
+    border: 1px solid #C3A100;
     padding: 5px 10px 20px 10px;
 }
 
 .team_homei:hover {
-    box-shadow: 0 0 5px #d4af37;
+    box-shadow: 0 0 5px #C3A100;
 }
 
 .team_homei img {

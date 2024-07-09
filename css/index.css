@@ -32,7 +32,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
     background: none;
     border: none;
     font-weight: 300;
-    color: #d4af37;
+    color: #C3A100;
     opacity: 1;
 }
 
@@ -225,7 +225,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 }
 
 .timeline_1r img {
-    border: 10px dashed #d4af37;
+    border: 10px dashed #C3A100;
     padding: 10px;
 }
 
@@ -487,7 +487,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
         margin-bottom: 10px;
     }
     .couple_2li img {
-        min-height: 560px;
+        min-height: 450px;
     }
     #events img {
         min-height: 400px!important;
@@ -525,7 +525,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
         font-size: 36px;
     }
     .couple_2li img {
-        min-height: 560px;
+        min-height: 450px;
     }
     #events .carousel-caption_1 {
         width: 50%;
@@ -537,7 +537,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
         font-size: 45px;
     }
     .couple_2li img {
-        min-height: 560px;
+        min-height: 450px;
     }
 }
 
@@ -552,5 +552,10 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 }
 
 #caro-img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 490px !important;
     object-fit: cover;
+    overflow: hidden;
 }
