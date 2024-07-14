@@ -116,6 +116,14 @@ h6 {
     overflow: hidden;
 }
 
+#contact-top-img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 250px !important;
+    object-fit: cover;
+    overflow: hidden;
+}
 
 #index-recent-img-2 {
     display: block;
@@ -639,10 +647,10 @@ a.socialIcon:hover,
 
 .footer_map_1i .span_1 i {
     background: #C3A100;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
-    line-height: 60px;
+    line-height: 40px;
     text-align: center;
     color: #fff;
     margin-right: 20px;
@@ -730,7 +738,7 @@ a.socialIcon:hover,
 /*********************gallery****************/
 
 #gallery {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 
@@ -1057,9 +1065,10 @@ a.socialIcon:hover,
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Great Vibes', cursive;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
 }
 
 .gallery-image-box {
@@ -1067,4 +1076,93 @@ a.socialIcon:hover,
     margin: 0 auto;
     justify-content: space-between;
     align-content: space-between;
+}
+
+#name-text-center {
+    display: flex;
+    margin:  auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#home-gallery-text-center {
+    display: flex;
+    margin:  auto;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+#event-tittle {
+    display: flex;
+    margin:  auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#index-gallery-card {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.couple_2m span {
+    font-size: 55px;
+    display: block;
+    padding-top: 260px;
+}
+
+#gallery-container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#gallery-panel-img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 350px !important;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* footer_map */
+
+#upcoming-event {
+    display: block;
+    margin: 5px auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+#gallery-love-separator {
+    display: block;
+}
+
+@media (max-width:425px) {
+    #gallery-love-separator {
+        display: none;
+    }
+
+    #index-carousel-image {
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: 280px !important;
+        object-fit: cover;
+        overflow: hidden; 
+    }
+
+    #index-carousel-h1 {
+        font-size: 30px;
+    }
+
+    #index-carousel-icon {
+        font-size: 30px;
+    }
 }
