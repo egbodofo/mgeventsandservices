@@ -1145,6 +1145,10 @@ a.socialIcon:hover,
 }
 
 @media (max-width:425px) {
+    #gallery-love-div {
+        display: none;
+    }
+
     #gallery-love-separator {
         display: none;
     }
