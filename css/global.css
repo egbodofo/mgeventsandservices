@@ -1128,6 +1128,26 @@ a.socialIcon:hover,
     height: 350px !important;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#gallery-button-div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+#gallery-button-single {
+    background: #C3A100;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px 12px 30px;
+    font-weight: normal;
 }
 
 /* footer_map */
@@ -1144,6 +1164,22 @@ a.socialIcon:hover,
     display: block;
 }
 
+/* Modal */
+
+#modal-zoom-in {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    
+    &.show {
+      transform: translate(-50%, -50%) scale(1);
+      transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+}
+
+
+/* Mobile */
 @media (max-width:425px) {
     #gallery-love-div {
         display: none;
@@ -1163,10 +1199,16 @@ a.socialIcon:hover,
     }
 
     #index-carousel-h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     #index-carousel-icon {
-        font-size: 30px;
+        font-size: 27px;
+    }
+
+    .blog_1ln {
+        padding: 20px 10px !important;
+        margin: 20px 10px !important;
+        width: 95% !important;
     }
 }

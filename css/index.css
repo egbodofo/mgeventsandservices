@@ -203,8 +203,8 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 }
 
 .memory_m {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: #0000006b;
 }
 
@@ -430,7 +430,12 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 }
 
 #contact_home {
-    background-image: url(../img/wall-3.jpg);
+    display: block;
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    background-image: url(/img/index-contact-us.jpg) !important;
     background-position: center;
 }
 
@@ -522,7 +527,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
         min-height: 500px!important;
     }
     .center_home h1 {
-        font-size: 36px;
+        font-size: 28px;
     }
     .couple_2li img {
         min-height: 450px;
@@ -534,7 +539,7 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
 @media (min-width:992px) and (max-width:1200px) {
     .center_home h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
     .couple_2li img {
         min-height: 450px;
@@ -558,4 +563,10 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
     height: 490px !important;
     object-fit: cover;
     overflow: hidden;
+}
+
+@media (max-width:425px) {
+    .carousel-caption {
+        height: 300px !important; 
+    }
 }
